@@ -1,0 +1,11 @@
+.lineGraph {
+  margin: 25px 0;
+}
+
+.lineGraph > h2 {
+  margin-bottom: 15px;
+}
+
+/* .lineGraph canvas {
+  height: 400px !important;
+} */

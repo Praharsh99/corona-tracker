@@ -1,0 +1,37 @@
+.table {
+  padding-right: 8px;
+  margin-top: 20px;
+  height: 300px;
+  color: #6a5d5d;
+  overflow: auto;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.table td {
+  padding: 10px 15px;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: whitesmoke;
+}
+
+.table::-webkit-scrollbar {
+  background: transparent;
+  width: 4px;
+}
+
+.table::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.table::-webkit-scrollbar {
+  border-radius: 10px;
+  background: rgba(235, 235, 235, 0.4);
+}
